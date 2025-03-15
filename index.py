@@ -30,16 +30,16 @@ def home_page():
     เราจะทำการแปลงข้อมูลในคอลัมน์ "YearsCodePro" ให้เป็นตัวเลข และวิเคราะห์ข้อมูลเหล่านี้ในขั้นตอนต่าง ๆ
     """)
     st.markdown("<h3 style='text-align: center;'>ผมจะทำความสะอาดข้อมูลก่อน</h3>", unsafe_allow_html=True)
-    st.image("picture/mac1.jpg", width=800)
+    st.image("mac1.jpg", width=800)
 
     st.markdown("<h4 style='text-align: center;'>ทำการสร้างกราฟกระจาย เพื่อแสดงความสัมพันธ์ระหว่าง จำนวนปีที่เขียนโปรแกรม กับเงินเดือนประจำปี</h4>", unsafe_allow_html=True)
-    st.image("picture/mac2.jpg", width=800)
+    st.image("mac2.jpg", width=800)
 
     st.markdown("<h3 style='text-align: center;'>ทำการแบ่งข้อมูลเป็นชุดฝึกและชุดทดสอบและใช้โมเดล Linear Regression ในการทำนายเงินเดือนตามจำนวนปีที่เขียนโปรแกรม</h3>", unsafe_allow_html=True)
-    st.image("picture/mac3.jpg", width=800)
+    st.image("mac3.jpg", width=800)
 
     st.markdown("<h3 style='text-align: center;'>ประเมินผลลัพธ์ของโมเดลที่ฝึกมาและแสดงกราฟที่มีเส้นการทำนาย (Regression Line) เพื่อให้เห็นว่าความสัมพันธ์ระหว่างประสบการณ์และเงินเดือนเป็นอย่างไร</h3>", unsafe_allow_html=True)
-    st.image("picture/mac4.jpg", width=800)
+    st.image("mac4.jpg", width=800)
     
     st.write(""" โดยผมได้นำ data set มาจาก Stack Overflow """)
     st.markdown("Survey results public(https://survey.stackoverflow.co)")
@@ -162,22 +162,22 @@ def services_page():
     """)
     
     st.write(""" เริ่มจาก โหลดข้อมูล Netflix และ กำจัดข้อมูลที่หายไป""")
-    st.image('picture/in1.png')
+    st.image('in1.png')
     
     st.write(""" แปลง colum เป็นตัวเลข """)
-    st.image('picture/in2.png')
+    st.image('in2.png')
     
     st.write(""" เลือกว่าจะใช้ข้อมูลไหนในการแยกระหว่าง movie และ TV show ปรับและแบ่งข้อมูล """)
-    st.image('picture/in3.png')
+    st.image('in3.png')
     
     st.write(""" สร้าง model neural network """)
-    st.image('picture/in4.png')
+    st.image('in4.png')
     
     st.write(""" ทำการเทรนโมเดลและแสดงกราฟ """)
-    st.image('picture/in5.png')
+    st.image('in5.png')
     
     st.write(""" output แสดงความแม่นยำในการเทรน """)
-    st.image('picture/in6.png')
+    st.image('in6.png')
 
     st.write(""" โดยผมได้นำ data set มาจาก Kaggle """)
     st.markdown("Netflix Movies and TV Shows(https://www.kaggle.com/datasets/shivamb/netflix-shows)")
@@ -185,7 +185,7 @@ def services_page():
 # หน้าติดต่อเรา (Demo Neural Network)
 def contact_page():
     st.title("Demo Neural Network")
-    st.image('picture/ne.png')
+    st.image('ne.png')
 
     # โหลดข้อมูล Netflix
     df = pd.read_csv('C:/Users/Extended-AMD/Desktop/netflix_titles.csv')
